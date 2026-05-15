@@ -1,44 +1,44 @@
 export default {
-  name: "张三",
-  title: "前端工程师",
-  avatar: "/jl/avatar.png",
-  bio: "热爱技术的前端工程师，专注于构建高性能、高可用的 Web 应用。拥有丰富的 Vue 和 React 项目经验，热衷于探索新技术并将其应用于实际项目中。",
+  name: "Sadsaid",
+  title: "用户增长运营/数字化运营",
+  avatar: "./微信图片_20241213111119.jpg",
+  bio: "熟悉传统行业数字化运营体系，具备小程序商城运营、用户增长、活动策划及渠道协同经验，擅长通过数字化工具推动用户转化与业务增长。",
 
   contact: {
-    email: "zhangsan@example.com",
+    email: "sadsaid@qq.com",
     github: "https://github.com/zhangsan",
     linkedin: "https://linkedin.com/in/zhangsan",
     phone: "138-0000-0000"
   },
 
   skills: [
-    { name: "JavaScript", level: 90 },
-    { name: "Vue.js", level: 85 },
-    { name: "React", level: 75 },
-    { name: "TypeScript", level: 80 },
-    { name: "Node.js", level: 70 },
-    { name: "CSS/Tailwind", level: 85 },
-    { name: "Git", level: 80 },
-    { name: "Webpack/Vite", level: 75 }
+    { name: "用户增长运营", level: 90 },
+    { name: "小程序商城运营", level: 85 },
+    { name: "活动策划与落地", level: 75 },
+    { name: "渠道运营协同", level: 80 },
+    { name: "数据分析与规则设计", level: 70 },
+    { name: "AI工具辅助运营", level: 85 },
+    { name: "页面内容策划", level: 80 },
+    { name: "Excel/WPS数据处理", level: 75 }
   ],
 
   experience: [
     {
-      company: "某科技有限公司",
-      role: "高级前端工程师",
-      period: "2023.01 - 至今",
-      description: "负责公司核心产品的前端架构设计与开发，主导技术选型和组件库建设，带领3人前端团队完成多个重点项目。"
+      company: "四川格力中央空调",
+      role: "数字化运营负责人",
+      period: "2024.04 - 至今",
+      description: "负责小程序商城日常运营及用户增长活动策划；负责营销活动执行、数据统计及效果分析；协同经销商推进区域营销活动落地，参与活动规则优化及用户转化提升；使用AI工具辅助内容生成与运营提效"
     },
     {
       company: "某互联网公司",
-      role: "前端工程师",
-      period: "2021.06 - 2022.12",
+      role: "用户运营",
+      period: "2015.09 - 2023.12",
       description: "参与电商平台前端开发，负责商品详情页和购物车模块，优化页面加载性能提升40%。"
     },
     {
-      company: "某创业公司",
-      role: "初级前端工程师",
-      period: "2020.03 - 2021.05",
+      company: "某传统白酒国企",
+      role: "区域销售",
+      period: "2022.06 - 2025.06",
       description: "独立完成公司官网和管理后台的前端开发，从零搭建项目并部署上线。"
     }
   ],
@@ -67,9 +67,9 @@ export default {
   education: [
     {
       school: "某某大学",
-      degree: "计算机科学与技术 · 本科",
-      period: "2016.09 - 2020.06",
-      description: "GPA 3.8/4.0，获优秀毕业生称号"
+      degree: "汽车工程 · 专科",
+      period: "2019.09 - 2012.06",
+      description: "获优秀毕业生称号"
     }
   ],
 
