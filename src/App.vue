@@ -1,7 +1,9 @@
 <template>
   <div class="flex min-h-screen bg-bg-primary">
     <Sidebar />
-    <MainContent />
+    <div class="ml-80 flex-1">
+      <MainContent />
+    </div>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 export default {
   name: "张三",
   title: "前端工程师",
-  avatar: "/avatar.png",
+  avatar: "/jl/avatar.png",
   bio: "热爱技术的前端工程师，专注于构建高性能、高可用的 Web 应用。拥有丰富的 Vue 和 React 项目经验，热衷于探索新技术并将其应用于实际项目中。",
 
   contact: {
