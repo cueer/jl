@@ -1,5 +1,24 @@
 <template>
-  <aside class="w-80 bg-bg-sidebar border-r border-border-custom p-6 flex flex-col items-center min-h-screen fixed left-0 top-0 overflow-y-auto">
+  <!-- Mobile toggle button -->
+  <button @click="mobileOpen = !mobileOpen"
+          class="md:hidden fixed top-4 left-4 z-50 p-2 bg-bg-sidebar border border-border-custom rounded-lg text-accent">
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path v-if="!mobileOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      <path v-else stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+    </svg>
+  </button>
+
+  <!-- Mobile overlay -->
+  <div v-if="mobileOpen" @click="mobileOpen = false"
+       class="md:hidden fixed inset-0 bg-black/50 z-30"></div>
+
+  <aside :class="[
+    'bg-bg-sidebar border-r border-border-custom p-6 flex flex-col items-center overflow-y-auto',
+    'md:w-80 md:fixed md:left-0 md:top-0 md:min-h-screen',
+    mobileOpen
+      ? 'fixed left-0 top-0 w-72 h-full z-40'
+      : 'hidden md:flex'
+  ]">
     <!-- Avatar -->
     <div class="w-32 h-32 rounded-full overflow-hidden border-4 border-accent mb-4">
       <img :src="profile.avatar" :alt="profile.name" class="w-full h-full object-cover" />
@@ -55,5 +74,7 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import profile from '../data/profile.js'
+const mobileOpen = ref(false)
 </script>
