@@ -3,7 +3,7 @@
            :class="isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'">
     <h2 class="text-2xl font-bold text-text-primary mb-6 flex items-center gap-3">
       <span class="w-8 h-0.5 bg-accent rounded"></span>
-      博客文章
+      过往项目
     </h2>
 
     <div class="space-y-4">

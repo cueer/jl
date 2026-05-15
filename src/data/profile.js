@@ -45,22 +45,28 @@ export default {
 
   projects: [
     {
-      name: "企业级组件库",
-      description: "基于 Vue 3 + TypeScript 开发的企业级 UI 组件库，包含50+组件，支持主题定制和国际化。",
-      tags: ["Vue 3", "TypeScript", "Vite", "Storybook"],
-      link: "https://github.com/zhangsan/ui-lib"
+      name: "微信小程序商城",
+      description: " 独立参与中央空调微信小程序商城运营与活动搭建，涵盖优惠券营销、裂变增长、活动页面策划、渠道推广及用户转化优化，具备完整的数字化运营实战经验。",
+      tags: ["数字化运营", "用户增长", "营销活动", "页面设计"],
+      link: "https://s.modo5.com/link/h5?c=PfA8CGF"
     },
     {
-      name: "实时数据可视化平台",
-      description: "大数据可视化平台，支持实时数据流展示、自定义图表配置和多端适配。",
-      tags: ["React", "ECharts", "WebSocket", "Node.js"],
-      link: "https://github.com/zhangsan/data-viz"
+      name: "AI自动化运营工作流",
+      description: "基于飞书与 Dify 搭建 AI 自动化工作流，实现内容生成、信息处理及运营流程协同，提高日常运营效率与数字化处理能力。",
+      tags: ["飞书自动化", "大模型应用", "知识库", "AI运营"],
+      link: ""
     },
     {
-      name: "个人技术博客",
-      description: "基于 VuePress 搭建的技术博客，累计发布50+篇技术文章，月均访问量1w+。",
-      tags: ["VuePress", "Markdown", "CI/CD"],
-      link: "https://zhangsan.github.io/blog"
+      name: "渠道运营与营销协同项目",
+      description: " 基于中央空调渠道业务场景，协同经销商推进营销活动执行、商城推广及用户转化，参与活动规则优化与运营数据分析，提升区域营销效率。",
+      tags: ["政策落地", "渠道运营", "区域运营", "数据分析"],
+      link: ""
+    },
+    {
+      name: "中央空调在线选型工具",
+      description: "围绕用户选购场景设计中央空调选型页面，实现产品展示、参数匹配及交互式选型流程，提升用户体验与业务转化效率。",
+      tags: ["中央空调", "业务数字化", "产品选型","AI辅助开发"],
+      link: "https://xy-wds.pages.dev/"
     }
   ],
 
@@ -75,22 +81,22 @@ export default {
 
   blog: [
     {
-      title: "Vue 3 Composition API 最佳实践",
-      summary: "深入探讨 Vue 3 组合式 API 的使用技巧和常见模式...",
-      date: "2025-12-01",
-      link: "https://zhangsan.github.io/blog/vue3-composition-api"
+      title: "双11",
+      summary: "双11活动运营与用户增长提升",
+      date: "2022-11-11",
+      link: "1111111"
     },
     {
-      title: "前端性能优化实战指南",
-      summary: "从加载性能、渲染性能到运行时性能的全面优化策略...",
-      date: "2025-08-15",
-      link: "https://zhangsan.github.io/blog/frontend-performance"
+      title: "618",
+      summary: "618活动运营与用户增长提升",
+      date: "2022-06-18",
+      link: "1111"
     },
     {
-      title: "从零搭建 Vite 项目",
-      summary: "手把手教你使用 Vite 搭建现代化前端项目...",
-      date: "2025-05-20",
-      link: "https://zhangsan.github.io/blog/vite-setup"
+      title: "日常运营",
+      summary: "营收提升与用户增长优化",
+      date: "2015-2023",
+      link: "1111"
     }
   ]
 }
